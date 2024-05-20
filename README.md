@@ -1,4 +1,5 @@
 ![Przechwytywanie1](https://github.com/D4rkS1t3/taskList/assets/140694059/5419c36f-93be-4add-8164-8b7b1cf10187)
+![Przechwytywanie2](https://github.com/D4rkS1t3/taskList/assets/140694059/3e4d3b89-e4b5-41e5-8486-dae05e16d5a8)
 
 # Todoapk
 
