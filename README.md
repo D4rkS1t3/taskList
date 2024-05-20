@@ -1,3 +1,5 @@
+![Przechwytywanie1](https://github.com/D4rkS1t3/taskList/assets/140694059/5419c36f-93be-4add-8164-8b7b1cf10187)
+
 # Todoapk
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
@@ -25,4 +27,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-![Przechwytywanie1](https://github.com/D4rkS1t3/taskList/assets/140694059/5419c36f-93be-4add-8164-8b7b1cf10187)
