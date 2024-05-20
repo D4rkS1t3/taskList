@@ -1,1 +1,372 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+  overflow-x: hidden;
+}
+body
+{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.mask-custom {
+  background: rgba(24, 24, 16, 0.2);
+  border-radius: 2em;
+  backdrop-filter: blur(25px);
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+.my-4
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+}
+.my-4:hover
+{
+    color: darkgray;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 10px; /* Usuń domyślne marginesy */
+    padding: 0; /* Usuń domyślne wewnętrzne marginesy */
+}
+
+.card-body {
+    width: 70%;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-radius: 1%;
+    height: auto;
+
+
+
+
+}
+.task-item
+{
+    border: 1px solid lightgray;
+    
+}
+
+
+
+.task-card {
+    background: rgba(24, 24, 16, 0.2);
+    border-radius: 2em;
+    backdrop-filter: blur(25px);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  }
+
+  .avatar {
+    width: 70px;
+    height: 87px;
+  }
+
+  .task-list {
+    display: grid;
+    gap: 15px;
+    padding: 0px 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    grid-auto-rows: 100px;
+    margin-bottom: 30px;
+  }
+
+  .task-item {
+    padding: 5px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-grow: 1; /* Rozciąga elementy w wierszu */
+    margin-bottom: 1px;
+  }
+
+  .name {
+    margin-left: 33%;
+    text-align: left;
+  }
+
+  .actions {
+    margin-top: 10px;
+  }
+
+  a
+  {
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Wyśrodkowanie w pionie i poziomie */
+    text-decoration: none; /* Usunięcie podkreślenia z linku */
+    padding-top: 15px;
+  }
+
+  .nav-wrapper img {
+    width: 50px; /* Możesz dostosować szerokość obrazka według potrzeb */
+    margin-right: 10px; /* Dodajemy odstęp między obrazkiem a tytułem */
+  }
+
+  .nav-wrapper h2 {
+    margin: 0; /* Usunięcie marginesu tytułu */
+  }
+  
+  .task-item{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 0.4fr 1.7fr 3fr 0.7fr 1.15fr; /* Ustawienie szerokości kolumn */
+    gap: 0px;
+   /* Wyrównanie elementów w pionie na środku */
+  }
+
+  .avatar
+  {
+    margin-left: 130%;
+    margin-right: 0.1%;
+  }
+  .name
+  {
+    padding-right: 14%;
+    font-size: 18px;
+  }
+
+
+
+.custom-icon {
+    font-size: 28px; /* Przykładowy kolor ikony */
+    padding: 8px;
+  }
+  
+  .custom-icon:hover {
+    color: darkgray; /* Przykładowa zmiana koloru po najechaniu myszką */
+  }
+  .task {
+    font-size: 18px;
+    color: #555;
+
+  }
+  .priority
+  {
+      font-size: 18px;
+  }
+  .actions
+  {
+
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  
+
+
+
+  .task-list-pre {
+    gap: 10px;
+    padding: 0 20px 10px 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    flex-wrap: wrap;
+  }
+  
+  .task-item-pre {
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-grow: 1; /* Rozciąga elementy w wierszu */
+  }
+  
+  .details2 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1.8fr 3.4fr 0.7fr 1.1fr; /* Ustawienie szerokości kolumn */
+    gap: 15px;
+    text-align: center;
+  }
+  
+  .name2 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 5%;
+
+  }
+  
+  .task2 {
+    font-size: 20px;
+    color: #555;
+
+  }
+  
+  .priority2 {
+
+    font-size: 20px;
+  }
+  
+  
+
+  
+  .actions2 {
+
+    gap: 10px;
+    font-size: 20px;
+    
+  }
+  
+  .actions2 span {
+    font-size: 14px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  /* Stylowanie modala */
+.modal {
+  display: none; /* Ukryj modal domyślnie */
+  position: fixed; /* Pozycjonowanie modala */
+  z-index: 1; /* Umieść modal na wierzchu */
+  left: 0;
+  top: 0;
+  width: 100%; /* Szerokość modala */
+  height: 100%; /* Wysokość modala */
+  overflow: auto; /* Włącz przewijanie, jeśli jest za dużo treści */
+  background-color: rgba(0, 0, 0, 0.4); /* Półprzezroczyste tło */
+}
+
+.modal-dialog {
+  position: relative;
+  margin: auto;
+  top: 10%;
+  width: 80%;
+  max-width: 600px;
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #888;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  animation: animatetop 0.4s; /* Dodanie animacji */
+}
+
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.modal-title {
+  margin: 0;
+  font-size: 24px;
+}
+
+.btn-close {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 10px 0;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 0;
+  border-top: 1px solid #e5e5e5;
+}
+
+.btn {
+  margin: 10px 3px;
+  padding: 10px 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Dodatkowe style z Twojego kodu */
+.mask-custom {
+  background: rgba(24, 24, 16, 0.2);
+  border-radius: 2em;
+  backdrop-filter: blur(25px);
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+
+/* Hover effects */
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* Ułatwienie w centrowaniu modal-content */
+@media (min-width: 576px) {
+  .modal-dialog {
+      max-width: 500px;
+      margin: 30px auto;
+  }
+}
